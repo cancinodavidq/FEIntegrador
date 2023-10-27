@@ -7,7 +7,7 @@ export function Formulario(){
 	const [post,setPost] = useState ({
 		nombre: '',
 		descripcion: '',
-		precio:''
+		precio: ''
 	})
 
 	const handleInput = (event) =>{
